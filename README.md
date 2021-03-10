@@ -15,5 +15,6 @@ this purpose, browsers allowing extraction of data fromDICOM files and its’ an
 created. The goal of the thesis is to create a desktop application achieving tasks mentioned
 above. Moreover, the viewer will make measurements on displayed images resulting with
 physical units possible.
+
 Keywords: DICOM, nuclear medicine, image processing
 
