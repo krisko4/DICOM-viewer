@@ -2,6 +2,7 @@
 My bachelor's degree thesis.
 
 Nuclear medicine imaging browser
+
 Abstract. The purpose of nuclear medicine is diagnosing and treating various diseases
 using radioactive isotopes. Supported by appropriate devices, there is a possibility to
 register results of particular examination as image. Nowadays, a large amount of medical
@@ -15,4 +16,4 @@ created. The goal of the thesis is to create a desktop application achieving tas
 above. Moreover, the viewer will make measurements on displayed images resulting with
 physical units possible.
 Keywords: DICOM, nuclear medicine, image processing
-4
+
