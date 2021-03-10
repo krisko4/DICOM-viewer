@@ -18,3 +18,7 @@ physical units possible.
 
 **Keywords**: DICOM, nuclear medicine, image processing
 
+**Streszczenie.** Medycyna nuklearna to dziedzina zajmująca się diagnostyką i leczeniem chorób z wykorzystaniem izotopów promieniotwórczych. Za pomocą odpowiednich urządzeń możliwa jest rejestracja wyników badań tej gałęzi w formie obrazu. W dzisiejszych czasach duża ilość informacji medycznej przechowywana jest w formacie DICOM. Standard ten umożliwia wymianę danych między urządzeniami medycznymi, czy też sprzętem nieprofesjonalnym, do którego zaliczyć możemy urządzenia podręczne typu tablet, telefon komórkowy czy też komputer stacjonarny. Dzięki temu każdy z nas może dokonać obserwacji wyników badań na swoim laptopie bądź smartfonie. Ponieważ format DICOM nie jest w większości przypadków domyślnie obsługiwany przez system operacyjny danego urządzenia, niezbędnym staje się skorzystanie z odpowiedniego oprogramowania, które poradzi sobie z tym problemem. W tym celu powstają przeglądarki umożliwiające pozyskiwanie informacji z plików DICOM oraz ich analizę i przetwarzanie. Celem niniejszej pracy dyplomowej jest stworzenie aplikacji okienkowej, która to umożliwi. Ponadto przeglądarka zagwarantuje dokonywanie pomiarów na wyświetlanych obrazach, dających wyniki w jednostkach fizycznych.
+
+**Słowa kluczowe**: DICOM, medycyna nuklearna, przetwarzanie obrazu
+
