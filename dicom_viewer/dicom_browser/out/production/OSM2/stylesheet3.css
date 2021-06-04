@@ -1,0 +1,240 @@
+
+.menu-bar{
+    -fx-background-color: #202020;
+    -fx-border-color: black;
+    -fx-border-style: solid hidden solid hidden;
+}
+
+#menu-icon {
+    -fx-fill: white;
+}
+
+#menu-icon:hover{
+    -fx-fill: skyblue;
+}
+
+#menu-item-icon {
+    -fx-fill:white;
+}
+
+#toolbox-icon {
+    -fx-fill: gray;
+}
+
+#toolbox-icon:hover {
+    -fx-fill: skyblue;
+    -fx-scale-x: 3;
+    -fx-scale-y: 3;
+}
+
+#menu-item-icon-checked {
+    -fx-fill:skyblue;
+}
+
+.menu .label {
+    -fx-text-fill: red;
+    -fx-font-family: "Impact";
+    -fx-font-size: 20px;
+}
+
+#processingCircle {
+    -fx-stroke: red;
+
+}
+
+#warningLabel{
+    -fx-text-fill: skyblue;
+    -fx-font-family: Verdana;
+}
+
+#processingCircleFinished {
+    -fx-stroke: green;
+}
+
+#processingLabel {
+    -fx-text-fill: red;
+
+}
+
+#processingLabelFinished {
+    -fx-text-fill: green;
+}
+
+.context-menu {
+    -fx-background-color: #202020;
+
+}
+.menu:hover,
+.menu:showing {
+    -fx-background-color: transparent;
+    -fx-border-color: red;
+    -fx-border-style: hidden hidden solid hidden;
+}
+.menu-item:hover .label {
+
+    -fx-text-fill: red;
+}
+
+.menu-item{
+    -fx-background-color: transparent;
+}
+
+.menu-item .label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+.scroll-bar{
+    -fx-background-color: black;
+
+}
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: black;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+    -fx-background-color: black;
+    -fx-background-insets: 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: black;
+    -fx-background-insets: 4 0 4 0;
+    -fx-border-color: red;
+    -fx-border-radius: 2em;
+    -fx-border-insets: 4 0 4 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical .thumb {
+    -fx-background-color: black;
+    -fx-background-insets: 0 4 0 4;
+    -fx-border-color: red;
+    -fx-border-radius: 2em;
+    -fx-border-insets: 0 4 0 4;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color:red;
+}
+.scroll-bar:horizontal .thumb:pressed,
+.scroll-bar:vertical .thumb:pressed {
+    -fx-background-color: red;
+}
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+    -fx-background-color: black;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: black;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.scroll-bar:horizontal .increment-arrow {
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-background-color: black;
+    -fx-border-color: red;
+    -fx-padding: 0.25em;
+    -fx-rotate: -90;
+}
+.scroll-bar:vertical .increment-arrow {
+    -fx-background-color: black;
+    -fx-border-color: red;
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 0;
+}
+.scroll-bar:horizontal .decrement-arrow {
+    -fx-background-color: black;
+    -fx-border-color: red;
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 90;
+}
+.scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: black;
+    -fx-border-color: red;
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: -180;
+}
+.scroll-bar:vertical:focused,
+.scroll-bar:horizontal:focused {
+    -fx-background-color: black;
+}
+
+.corner{
+    -fx-background-color: black;
+}
+.scroll-bar:vertical .decrement-arrow:hover{
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+.scroll-bar:vertical .increment-arrow:hover{
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+.scroll-bar:horizontal .increment-arrow:hover{
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+.scroll-bar:horizontal .decrement-arrow:hover{
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+
+
+
+
+
+
+.treeView .tree-cell{
+    -fx-background-color: #202020;
+    -fx-text-fill: red;
+
+
+}
+
+.treeView:focused {
+    -fx-focus-color: black;
+
+}
+
+.treeView:showing{
+    -fx-background-color: #202020;
+
+
+}
+
+.treeView{
+    -fx-background-color: #202020;
+
+}
+
+.treeView .tree-cell:hover{
+    -fx-text-fill:white;
+}
+
+
+
+.treeView .tree-cell:selected{
+
+    -fx-text-fill: white ;
+    -fx-font-weight: bold;
+}
+
+
+.tree-cell > .tree-disclosure-node > .arrow  {
+    -fx-background-color: red;
+
+}
+.tree-cell:expanded > .tree-disclosure-node > .arrow {
+    -fx-background-color: white;
+}
+
+
+

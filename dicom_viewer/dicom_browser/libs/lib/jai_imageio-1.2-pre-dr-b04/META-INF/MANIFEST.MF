@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: gunter
+Build-Jdk: 1.7.0_40
+Extension-Name: com.sun.media.imageio
+Implementation-Title: com.sun.media.imageio
+Implementation-Vendor: Sun Microsystems, Inc.
+Implementation-Version: 1.2-pre-dr-b04
+Provide-Capability: osgi.serviceloader;osgi.serviceloader=javax.imagei
+ o.spi.ImageInputStreamSpi,osgi.serviceloader;osgi.serviceloader=javax
+ .imageio.spi.ImageOutputStreamSpi,osgi.serviceloader;osgi.serviceload
+ er=javax.imageio.spi.ImageReaderSpi,osgi.serviceloader;osgi.servicelo
+ ader=javax.imageio.spi.ImageWriterSpi
+Require-Capability: osgi.extender;filter:="(osgi.extender=osgi.service
+ loader.registrar)"
+Sealed: true
+Specification-Title: Java Advanced Imaging Image I/O Tools
+Specification-Vendor: Sun Microsystems, Inc.
+Specification-Version: 1.2-pre-dr-b04
+

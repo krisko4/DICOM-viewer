@@ -1,0 +1,253 @@
+
+.menu-bar{
+    -fx-background-color: #202020;
+
+    -fx-border-style: solid hidden solid hidden;
+}
+
+#menu-icon {
+    -fx-fill: white;
+
+}
+
+#toolbox-icon {
+    -fx-fill: gray;
+}
+
+#warningLabel{
+    -fx-text-fill: pink;
+    -fx-font-family: Verdana;
+}
+
+#toolbox-icon:hover {
+    -fx-fill: pink;
+    -fx-scale-x: 3;
+    -fx-scale-y: 3;
+}
+
+#menu-icon:hover{
+    -fx-fill: pink;
+}
+
+#processingCircle {
+    -fx-stroke: yellow;
+
+}
+
+#processingCircleFinished {
+    -fx-stroke: green;
+}
+
+#processingLabel {
+    -fx-text-fill: yellow;
+
+}
+
+#processingLabelFinished {
+    -fx-text-fill: green;
+}
+
+#menu-item-icon {
+    -fx-fill:white;
+}
+
+#menu-item-icon-checked {
+    -fx-fill:pink;
+}
+
+.menu .label {
+
+    -fx-text-fill: yellow;
+    -fx-font-family: "Impact";
+    -fx-font-size: 20px;
+
+}
+
+
+.menu:hover,
+.menu:showing {
+    -fx-background-color: transparent;
+    -fx-border-color: yellow;
+    -fx-border-style: hidden hidden solid hidden;
+}
+
+
+.context-menu {
+    -fx-background-color: #202020;
+
+}
+.menu-item .label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+.menu-item:hover .label {
+
+    -fx-text-fill: yellow;
+}
+
+.menu-item{
+    -fx-background-color: transparent;
+}
+
+.menu-item:pressed{
+    -fx-text-fill: yellow;
+}
+
+
+
+
+.scroll-bar{
+    -fx-background-color: black;
+
+}
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: black;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+    -fx-background-color: black;
+    -fx-background-insets: 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: black;
+    -fx-background-insets: 4 0 4 0;
+    -fx-border-color: yellow;
+    -fx-border-radius: 2em;
+    -fx-border-insets: 4 0 4 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical .thumb {
+    -fx-background-color: black;
+    -fx-background-insets: 0 4 0 4;
+    -fx-border-color: yellow;
+    -fx-border-radius: 2em;
+    -fx-border-insets: 0 4 0 4;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: yellow;
+}
+.scroll-bar:horizontal .thumb:pressed,
+.scroll-bar:vertical .thumb:pressed {
+    -fx-background-color: yellow;
+}
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+    -fx-background-color: black;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: black;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.scroll-bar:horizontal .increment-arrow {
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-background-color: black;
+    -fx-border-color: yellow;
+    -fx-padding: 0.25em;
+    -fx-rotate: -90;
+}
+.scroll-bar:vertical .increment-arrow {
+    -fx-background-color: black;
+    -fx-border-color: yellow;
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 0;
+}
+.scroll-bar:horizontal .decrement-arrow {
+    -fx-background-color: black;
+    -fx-border-color: yellow;
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 90;
+}
+.scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: black;
+    -fx-border-color: yellow;
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: -180;
+}
+.scroll-bar:vertical:focused,
+.scroll-bar:horizontal:focused {
+    -fx-background-color: black;
+}
+
+.corner{
+    -fx-background-color: black;
+}
+.scroll-bar:vertical .decrement-arrow:hover{
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+.scroll-bar:vertical .increment-arrow:hover{
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+.scroll-bar:horizontal .increment-arrow:hover{
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+.scroll-bar:horizontal .decrement-arrow:hover{
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+
+
+
+
+
+
+.treeView .tree-cell{
+    -fx-background-color: #202020;
+    -fx-text-fill: yellow;
+
+
+}
+
+.treeView:focused {
+    -fx-focus-color: black;
+
+}
+
+.treeView:showing{
+    -fx-background-color: #202020;
+
+
+}
+
+.treeView{
+    -fx-background-color: #202020;
+
+}
+
+.treeView .tree-cell:hover{
+    -fx-text-fill:white;
+}
+
+
+
+.treeView .tree-cell:selected{
+
+    -fx-text-fill: white ;
+    -fx-font-weight: bold;
+}
+
+
+.tree-cell > .tree-disclosure-node > .arrow  {
+    -fx-background-color: yellow;
+
+}
+.tree-cell:expanded > .tree-disclosure-node > .arrow {
+    -fx-background-color: white;
+}
+
+
+

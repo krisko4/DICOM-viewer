@@ -1,0 +1,63 @@
+smolik, kurjata 
+marzec-smolik-bogorodzki
+recenzent:2 pytania z 5 tych samych
+1. szeroko pojeta tomografia emisyjna - pet/spect podobienstwa i roznice 
+ligand - zwiazek chemiczny
+spect technet jod kolimatory bardzo malo fotonow dociera do gammakamery
+pet rozpad beta plus rozdzielczosc pet niska jak to sie dzieje ze 511 kev - zasada zachowania energii, pedu
+koincydencja 
+reoknstrukcja - detekujemy blyski, otrzymujemy pek prostych i przeciecie prostych okresla miejsce
+tomografia transmisyjna - komputerowa(rzadko),emisyjna
+nmr- rzadko 
+generacje promieniowania X - w lampie rentgenowskiej lub akceleratorze roznica i podobienstwa miedzy lampa a akceleratorem
+w lampie mamy stale pole elektryczne, a w akceleratorze mamy zmienne
+akceleratory generuja MeV , rentgeny setki keV
+napiecie na lampie 100 kV, prąd 10 mA 1000W
+ogromna moc w ogromnie malej objetosci
+anoda o wysokiej temperaturze topnienia, wolfram
+akcelerator - elektrony przyspieszane przy pomocy fali 
+
+detekcja sygnalow biomedycznych - jakie sa sygnaly: ekg,eeg,emg, rzedy wielkosci, uklad pomiarowy(wzmacniacz instrumentalny - roznicowa detekcja, elektrody, przewodnictwo w ciele czlowiek ma charakter jonowy, a w elektrodzie elektronowy
+zaklocenia i szumy niwelowanie, bootstrap, elektroda referencyjna
+zrodlo zaklocen - siec czestotliwosc 50Hz, wchodzi w widmo sygnalow bioelektrycznych
+stosuje sie filtry zeby ja wyciac
+jak wplywa siec elektryczna na czlowieka? 
+sprzezenie pojemnosciowe czlowieka z siecia, na ciele czlowieka caly czas jest kilkanascie V
+
+paradygmaty programowania obiektowego 
+hermetyzacja
+obiektowosc
+polimorfizm
+zliczanie
+
+c++ - religia, uniwersalny, urzadzenia w c++, apka lepsza w c++ niz w javie
+
+roznica miedzy cpp a c
+roznica miedzy proramowanie strukturalnym a obiektowym
+w strukturalnym brak metod
+
+ochrona radiologiczna - co to(przepisy prawa)
+skad sie bierze ochrona radiologiczna
+przepisy prawa mowia o normach
+ten normy sie nie tycza pacjentow
+lekarz decyduje czy cos jest bardziej pozyteczne czy szkodliwe
+promieniowanie jonizujace moze powodowac chorobe popromienna bialaczke biegunke, narazone sa organy szybko dzielace sie
+dlatego promieniowanie powoduje bialaczke bo krew sie szybko dzieli
+osoba napromieniowana dostaje biegunki bo jelita przestaja dzialac
+promieniowanie niszczy DNA i komorka odtwarzajac DNA robi bledy. Jak jest szybko niszczona to szybko 
+dawka pochlonieta, rownowaznik dawki, co sie podaje w siwertach
+
+czy my jeestesmy w stanie wyeliminowac promieniowanie - nie mozemy(gleba,tlo,kosmiczne), banany, pomidory(potas promieniotworczy)
+
+jesli bedzie smolik to jest duza szansa ze padnie pytanie o DICOM - standardy przechowywania danych medycznych, specyfika przechowywania obrazow medycznych
+
+prawdopodbienstwo ze 2 z tych jest bardzo wysokie ale nie 100 procent
+
+marzec - jesli sie zakrecisz w odpowiedziach(betonowe kola ratunkowe) marzec podpowiada, ale podpowiedzi ida w takim kierunku ze studenci glupieja
+jak widzi ze nie potrafi odpowiedziec to dochodzi do bardzo podstawowych pytan
+student nie potrafi powiedziec ze w organizmie czlowieka jest jonowe przewodnictwo
+a jak dziala akumulator
+pytanie o termoemisje i katode - jak dziala? z czego jest drucik w katodzie
+a jak jest zbudowana zarowka 
+
+Napięcie - stosunek pracy jaką musi wykonać pole żeby przemieścić ładunek z punktu a do b do wartości tego ładunku

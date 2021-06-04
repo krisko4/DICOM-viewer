@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1599826378891
+Build-Jdk: 11.0.8
+Built-By: gunter
+Bundle-Description: dcm4che DICOM toolkit and utilities
+Bundle-DocURL: http://dcm4che.org
+Bundle-License: https://www.mozilla.org/en-US/MPL/1.1/, https://www.gn
+ u.org/licenses/old-licenses/gpl-2.0.html, https://www.gnu.org/license
+ s/old-licenses/lgpl-2.1.html
+Bundle-ManifestVersion: 2
+Bundle-Name: dcm4che-imageio
+Bundle-SymbolicName: org.dcm4che.imageio
+Bundle-Vendor: dcm4che.org
+Bundle-Version: 5.22.5
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.dcm4che3.imageio.codec;version="5.22.5";uses:="jav
+ ax.imageio,javax.imageio.stream,org.dcm4che3.data,org.dcm4che3.image,
+ org.dcm4che3.imageio.codec.jpeg,org.dcm4che3.imageio.codec.mp4,org.dc
+ m4che3.io,org.dcm4che3.util",org.dcm4che3.imageio.codec.mpeg;version=
+ "5.22.5";uses:="org.dcm4che3.data,org.dcm4che3.imageio.codec,org.dcm4
+ che3.imageio.codec.mp4",org.dcm4che3.imageio.codec.mp4;version="5.22.
+ 5";uses:="org.dcm4che3.data,org.dcm4che3.imageio.codec",org.dcm4che3.
+ imageio.codec.jpeg;version="5.22.5";uses:="javax.imageio.stream,org.d
+ cm4che3.data,org.dcm4che3.imageio.codec,org.dcm4che3.imageio.codec.mp
+ 4",org.dcm4che3.imageio.plugins.dcm;version="5.22.5";uses:="javax.ima
+ geio,javax.imageio.metadata,javax.imageio.spi,javax.imageio.stream,or
+ g.dcm4che3.data,org.dcm4che3.image,org.w3c.dom",org.dcm4che3.imageio.
+ stream;version="5.22.5";uses:="javax.imageio.stream,org.dcm4che3.data
+ ,org.dcm4che3.imageio.codec,org.dcm4che3.io"
+Implementation-Title: dcm4che-imageio
+Implementation-Vendor: dcm4che.org
+Implementation-Vendor-Id: org.dcm4che
+Implementation-Version: 5.22.5
+Import-Package: javax.imageio,javax.imageio.metadata,javax.imageio.spi
+ ,javax.imageio.stream,org.dcm4che3.data;version="[5.22,6)",org.dcm4ch
+ e3.image;version="[5.22,6)",org.dcm4che3.imageio.codec;version="[5.22
+ ,6)",org.dcm4che3.imageio.codec.jpeg;version="[5.22,6)",org.dcm4che3.
+ imageio.codec.mp4;version="[5.22,6)",org.dcm4che3.imageio.stream;vers
+ ion="[5.22,6)",org.dcm4che3.io;version="[5.22,6)",org.dcm4che3.util;v
+ ersion="[5.22,6)",org.slf4j;version="[1.7,2)",org.w3c.dom
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: dcm4che-imageio
+Specification-Vendor: dcm4che.org
+Specification-Version: 5.22.5
+SPI-Consumer: *
+SPI-Provider: javax.imageio.spi.ImageReaderSpi
+Tool: Bnd-3.5.0.201709291849
