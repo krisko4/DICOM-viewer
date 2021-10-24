@@ -1,5 +1,8 @@
 # Thesis
-My bachelor's degree thesis.
+My bachelor's degree thesis. An application written in Java, which allows browsing through DICOM files and managing image data.
+
+https://www.youtube.com/watch?v=ieNUzfmq_cQ
+
 
 # Nuclear medicine imaging browser
 
