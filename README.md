@@ -1,17 +1,9 @@
 # Thesis
 My bachelor's degree thesis. An application written in Java, which allows browsing through DICOM files and managing image data.
 
-# Short video example
+## Short video example
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ieNUzfmq_cQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=ieNUzfmq_cQ)
-
-# How to run it?
-
-*Since the project has been written in Java, please make sure you have Java installed on your device.*
-
-In order to run DICOM Browser, please double click on *run.bat* file. Image samples can be found in *dicoms* directory. That's it!
-
-
 
 # Nuclear medicine imaging browser
 
@@ -35,4 +27,16 @@ physical units possible.
 **Streszczenie.** Medycyna nuklearna to dziedzina zajmująca się diagnostyką i leczeniem chorób z wykorzystaniem izotopów promieniotwórczych. Za pomocą odpowiednich urządzeń możliwa jest rejestracja wyników badań tej gałęzi w formie obrazu. W dzisiejszych czasach duża ilość informacji medycznej przechowywana jest w formacie DICOM. Standard ten umożliwia wymianę danych między urządzeniami medycznymi, czy też sprzętem nieprofesjonalnym, do którego zaliczyć możemy urządzenia podręczne typu tablet, telefon komórkowy czy też komputer stacjonarny. Dzięki temu każdy z nas może dokonać obserwacji wyników badań na swoim laptopie bądź smartfonie. Ponieważ format DICOM nie jest w większości przypadków domyślnie obsługiwany przez system operacyjny danego urządzenia, niezbędnym staje się skorzystanie z odpowiedniego oprogramowania, które poradzi sobie z tym problemem. W tym celu powstają przeglądarki umożliwiające pozyskiwanie informacji z plików DICOM oraz ich analizę i przetwarzanie. Celem niniejszej pracy dyplomowej jest stworzenie aplikacji okienkowej, która to umożliwi. Ponadto przeglądarka zagwarantuje dokonywanie pomiarów na wyświetlanych obrazach, dających wyniki w jednostkach fizycznych.
 
 **Słowa kluczowe**: DICOM, medycyna nuklearna, przetwarzanie obrazu
+
+
+
+## How to run it?
+
+*Since the project has been written in Java, please make sure you have Java installed on your device.*
+
+In order to run DICOM Browser, please double click on *run.bat* file. Image samples can be found in *dicoms* directory. That's it!
+
+
+
+
 
