@@ -1,7 +1,10 @@
 # Thesis
 My bachelor's degree thesis. An application written in Java, which allows browsing through DICOM files and managing image data.
 
-https://www.youtube.com/watch?v=ieNUzfmq_cQ
+# Short video example
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ieNUzfmq_cQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=ieNUzfmq_cQ)
+
 
 
 # Nuclear medicine imaging browser
