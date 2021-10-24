@@ -5,6 +5,12 @@ My bachelor's degree thesis. An application written in Java, which allows browsi
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ieNUzfmq_cQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=ieNUzfmq_cQ)
 
+# How to run it?
+
+*Since the project has been written in Java, please make sure you have Java installed on your device.*
+
+In order to run DICOM Browser, please double click on *run.bat* file. Image samples can be found in *dicoms* directory. That's it!
+
 
 
 # Nuclear medicine imaging browser
