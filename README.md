@@ -30,7 +30,7 @@ physical units possible.
 
 
 
-## How to run it?
+## How can I run it?
 
 *Since the project has been written in Java, please make sure you have Java installed on your device.*
 
