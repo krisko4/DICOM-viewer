@@ -32,7 +32,7 @@ physical units possible.
 
 ## How can I run it?
 
-*Since the project has been written in Java, please make sure you have Java installed on your device.*
+*Since the project has been written in Java, please make sure you have Java SDK installed on your device.*
 
 In order to run DICOM Browser, please double click on *run.bat* file. Image samples can be found in *dicoms* directory. That's it!
 
